@@ -1,0 +1,51 @@
+.About{
+    margin: 100px auto;
+    width: 90%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.about-left{
+    flex-basis: 40%;
+    position: relative;
+    cursor: pointer;
+}
+
+.about-left .about-us-video{
+    width: 100%;
+}
+
+.about-left .play-button{
+    width: 60px;
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+}
+
+.about-right{
+    flex-basis: 56%;
+}
+
+.about-right h3{
+    color:#000F38;
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-right h2{
+    color:#212EA0;
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 10px;
+}
+
+.about-right p{
+    margin-bottom: 10px;
+    font-size: 15px;
+}
